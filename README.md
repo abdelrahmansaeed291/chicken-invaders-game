@@ -4,8 +4,11 @@
    + The player is positioned in the middle of the screen at the start of the game,
    + Health bar displayed on screen for the enemy,
    + 3 lives displayed on screen for the player.
-### player: The player starts at a fixed position in the middle of the screen and is controlled by the keyboard keys to move in 4 directions.
-### enemy: Starts at the top of the screen and then moves a continuous motion from left to right , the enemy moves to the right and when it
+### player: 
+   
++ The player starts at a fixed position in the middle of the screen and is controlled by the keyboard keys to move in 4 directions.
+### enemy: 
+   +Starts at the top of the screen and then moves a continuous motion from left to right , the enemy moves to the right and when it
 reach the border of the screen it changes direction to move to the left .
 ### power-ups:
    + if the player was to collide with one or more of the bullets from the enemy no lives will be lost,
