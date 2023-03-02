@@ -300,45 +300,45 @@ void Display() {
 		//player
 
 		glBegin(GL_QUADS); // player
-		glColor3f(0.0f, 1.0f, 0.0f);
+		glColor3f(0.0f, 0.0f, 0.0f);
 		glVertex3f(z1, p2, 0.0f);
-		glColor3f(0.0f, 1.0f, 0.0f);
+		glColor3f(0.0f, 0.0f, 0.0f);
 		glVertex3f(z1, p1, 0.0f);
-		glColor3f(0.0f, 1.0f, 0.0f);
+		glColor3f(0.0f, 0.0f, 0.0f);
 		glVertex3f(z2, p1, 0.0f);
-		glColor3f(0.0f, 1.0f, 0.0f);
+		glColor3f(0.0f, 0.0f, 0.0f);
 		glVertex3f(z2, p2, 0.0f);
 		glEnd();
 
 
 		glBegin(GL_QUADS); // player
-		glColor3f(1.0f, 1.0f, 1.0f);
+		glColor3f(0.0f, 0.0f, 1.0f);
 		glVertex3f(z1, p3, 0.0f);
-		glColor3f(1.0f, 1.0f, 1.0f);
+		glColor3f(0.0f, 0.0f, 1.0f);
 		glVertex3f(z1, p2, 0.0f);
-		glColor3f(1.0f, 1.0f, 1.0f);
+		glColor3f(0.0f, 0.0f, 1.0f);
 		glVertex3f(z2, p2, 0.0f);
-		glColor3f(1.0f, 1.0f, 1.0f);
+		glColor3f(0.0f, 0.0f, 1.0f);
 		glVertex3f(z2, p3, 0.0f);
 		glEnd();
 
 		glBegin(GL_QUADS); // player
-		glColor3f(0.0f, 0.0f, 0.0f);
+		glColor3f(1.0f, 1.0f, 0.0f);
 		glVertex3f(z1, p4, 0.0f);
-		glColor3f(0.0f, 0.0f, 0.0f);
+		glColor3f(1.0f, 1.0f, 0.0f);
 		glVertex3f(z1, p3, 0.0f);
-		glColor3f(0.0f, 0.0f, 0.0f);
+		glColor3f(1.0f, 1.0f, 0.0f);
 		glVertex3f(z2, p3, 0.0f);
-		glColor3f(0.0f, 0.0f, 0.0f);
+		glColor3f(1.0f, 1.0f, 0.0f);
 		glVertex3f(z2, p4, 0.0f);
 		glEnd();
 
 		glBegin(GL_TRIANGLES); // player
-		glColor3f(1.0f, 0.0f, 0.0f);
+		glColor3f(1.0f, 1.0f, 1.0f);
 		glVertex3f(z1, p1, 0.0f);
-		glColor3f(1.0f, 0.0f, 0.0f);
+		glColor3f(1.0f, 1.0f, 1.0f);
 		glVertex3f(z1, p4, 0.0f);
-		glColor3f(1.0f, 0.0f, 0.0f);
+		glColor3f(1.0f, 1.0f, 1.0f);
 		glVertex3f(z1+50, (p1+p4)/2, 0.0f);
 		
 		glEnd();
@@ -380,13 +380,13 @@ void Display() {
 
 
 		glBegin(GL_QUADS); 
-		glColor3f(1.0f, 1.0f, 1.0f);
+		glColor3f(0.5f, 0.5f, 0.5f);
 		glVertex3f(x1, 1180.0f, 0.0f);
-		glColor3f(1.0f, 1.0f, 1.0f);
+		glColor3f(0.5f, 0.5f, 0.5f);
 		glVertex3f(x1, 930.0f, 0.0f);
-		glColor3f(1.0f, 1.0f, 1.0f);
+		glColor3f(0.5f, 0.5f, 0.5f);
 		glVertex3f(x2, 930.0f, 0.0f);
-		glColor3f(1.0f, 1.0f, 1.0f);
+		glColor3f(0.5f, 0.5f, 0.5f);
 		glVertex3f(x2, 1180.0f, 0.0f);
 		glEnd();
 
@@ -402,44 +402,44 @@ void Display() {
 		glEnd();
 
 		glBegin(GL_QUADS);  
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(1.0f, 0.0f, 0.0f);
 		glVertex3f(x1, 1160.0f, 0.0f);
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(1.0f, 0.0f, 0.0f);
 		glVertex3f(x1, 1130.0f, 0.0f);
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(1.0f, 0.0f, 0.0f);
 		glVertex3f(x2, 1130.0f, 0.0f);
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(1.0f, 0.0f, 0.0f);
 		glVertex3f(x2, 1160.0f, 0.0f);
 		glEnd();
 
 		glBegin(GL_TRIANGLES); 
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(0.0f, 0.0f, 0.0f);
 		glVertex3f(x3, 1025.0f, 0.0f);
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(0.0f, 0.0f, 0.0f);
 		glVertex3f(x4, 1025.0f, 0.0f);
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(0.0f, 0.0f, 0.0f);
 		glVertex3f(x5, 1110.0f, 0.0f);
 
 		glEnd();
 
 		glBegin(GL_TRIANGLES); 
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(0.0f, 0.0f, 0.0f);
 		glVertex3f(x3, 1085.0f, 0.0f);
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(0.0f, 0.0f, 0.0f);
 		glVertex3f(x4, 1085.0f, 0.0f);
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(0.0f, 0.0f, 0.0f);
 		glVertex3f(x5, 1000.0f, 0.0f);
 
 		glEnd();
 
 		glBegin(GL_QUADS);
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(1.0f, 0.0f, 0.0f);
 		glVertex3f(x5 - 10, 910.0f, 0.0f);
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(1.0f, 0.0f, 0.0f);
 		glVertex3f(x5 - 10, 930.0f, 0.0f);
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(1.0f, 0.0f, 0.0f);
 		glVertex3f(x5 + 10, 930.0f, 0.0f);
-		glColor3f(0.0f, 0.0f, 1.0f);
+		glColor3f(1.0f, 0.0f, 0.0f);
 		glVertex3f(x5 + 10, 910.0f, 0.0f);
 		glEnd();
 
@@ -517,7 +517,7 @@ void Display() {
 	else {
 	if (live>0) {
 		glColor3f(0.5f, 0.5f, 0.5f);
-		sprintf((char*)lives,"Congratulations you killed the occupier  ");
+		sprintf((char*)lives,"Congratulations you win  ");
 		print(590, 600, (char*)lives);
 
 		sprintf((char*)lives, " press enter to start again ");
@@ -525,7 +525,7 @@ void Display() {
 	}
 	else {
 		glColor3f(0.5f, 0.5f, 0.5f);
-		sprintf((char*)lives,"Shame on you ");
+		sprintf((char*)lives,"Game over ");
 		print(660, 600, (char*)lives);
 
 		sprintf((char*)lives, " press enter to start again ");
